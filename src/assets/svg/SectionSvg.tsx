@@ -1,6 +1,6 @@
-import PlusSvg from "./PlusSvg";
+import { PlusSvg } from "./PlusSvg";
 
-const SectionSvg = ({ crossesOffset }) => {
+export const SectionSvg = ({ crossesOffset }) => {
   return (
     <>
       <PlusSvg
@@ -17,5 +17,3 @@ const SectionSvg = ({ crossesOffset }) => {
     </>
   );
 };
-
-export default SectionSvg;

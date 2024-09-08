@@ -1,5 +1,4 @@
 /** @type {import('tailwindcss').Config} */
-import { fontFamily } from "tailwindcss/defaultTheme";
 
 export default {
   content: ["./src/**/*.{js,ts,jsx,tsx}"],
@@ -37,6 +36,11 @@ export default {
         sans: ["Sora", "sans-serif"],
         code: ["Source Code Pro", "monospace"],
         grotesk: ["Space Grotesk", "sans-serif"],
+      },
+      backgroundImage: {
+        "radial-gradient": "radial-gradient(var(--tw-gradient-stops))",
+        "conic-gradient":
+          "conic-gradient(from 225deg, #FFC876, #79FFF7, #9F53FF, #FF98E2, #FFC876)",
       },
     },
   },

@@ -12,7 +12,7 @@ import Button from "./Button";
 
 export default function Header() {
   const location = useLocation();
-  const [openSmallNav, setOpenSmallNav] = useState(true);
+  const [openSmallNav, setOpenSmallNav] = useState(false);
 
   const toggleSmallNav = () => setOpenSmallNav((open) => !open);
   const closeSmallNav = () => setOpenSmallNav(false);
