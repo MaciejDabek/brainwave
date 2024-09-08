@@ -10,14 +10,14 @@ export default function Collaboration() {
     <Section id="collaboration" crosses>
       <Container className="flex flex-wrap justify-center gap-y-5 lg:justify-evenly">
         <div className="max-w-[25rem]">
-          <h2 className="text-[1.75rem] leading-[2.5rem] md:text-[2rem] md:leading-[2.5rem] lg:text-[2.5rem] lg:leading-[3.5rem] xl:text-[3rem] xl:leading-tight mb-4 md:mb-8">
+          <h2 className="h2 mb-4 md:mb-8">
             AI Chat App for seamless collaboration
           </h2>
 
           <ul className="max-w-[22rem] mb-10 md:mb-14">
             {collabContent.map((item) => (
               <li key={item.id} className="mb-3 py-3">
-                <div className="flex item-center font-light text-[0.875rem] leading-6 md:text-base">
+                <div className="flex item-center body-2">
                   <img src={check} width={24} height={24} alt="check icon" />
                   <h6 className="ml-5">{item.title}</h6>
                 </div>
