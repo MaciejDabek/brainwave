@@ -3,11 +3,12 @@ import { benefits } from "../constants";
 import Heading from "./Heading";
 import Section from "./Section";
 import { GradientLight } from "./design/Benefits";
+import Container from "./design/Container";
 
 export default function Benefits() {
   return (
     <Section id="features">
-      <div className="max-w-[77.5rem] mx-auto px-5 md:px-10 lg:px-15 xl:max-w-[87.5rem]">
+      <Container>
         <Heading className="" text="Chat Smarter, Not Harder with Brainwave" />
         <div className="flex flex-wrap justify-center gap-10 mb-10 mx-auto">
           {benefits.map((item) => (
@@ -50,7 +51,7 @@ export default function Benefits() {
             </div>
           ))}
         </div>
-      </div>
+      </Container>
     </Section>
   );
 }
