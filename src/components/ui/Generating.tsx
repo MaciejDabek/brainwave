@@ -1,5 +1,5 @@
-import { loading } from "../assets";
-import { cn } from "../utils/utils";
+import { loading } from "../../assets";
+import { cn } from "../../utils/utils";
 
 type GeneratingProps = {
   className?: string;

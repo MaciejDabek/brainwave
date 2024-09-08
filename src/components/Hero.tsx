@@ -1,11 +1,11 @@
 import { ScrollParallax } from "react-just-parallax";
 import { curve, heroBackground, robot } from "../assets";
-import Button from "./Button";
-import Section from "./Section";
+import Button from "./ui/Button";
+import Section from "./ui/Section";
 import { heroIcons } from "../constants";
 import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
-import Generating from "./Generating";
-import Notification from "./Notification";
+import Generating from "./ui/Generating";
+import Notification from "./ui/Notification";
 import CompanyLogos from "./CompanyLogos";
 
 export default function Hero() {

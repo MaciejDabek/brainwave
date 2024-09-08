@@ -1,13 +1,13 @@
-import { notification1 } from "../assets";
-import { notificationImages } from "../constants";
-import { cn } from "../utils/utils";
+import { notification1 } from "../../assets";
+import { notificationImages } from "../../constants";
+import { cn } from "../../utils/utils";
 
 type NotificationProps = {
   title: string;
   className?: string;
 };
 
-export default function Notification({ title, className = "" }) {
+export default function Notification({ title, className }: NotificationProps) {
   return (
     <div
       className={cn(

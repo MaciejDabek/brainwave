@@ -1,7 +1,7 @@
 import { smallSphere, stars } from "../assets";
-import Heading from "./Heading";
+import Heading from "./ui/Heading";
 import PricingList from "./PricingList";
-import Section from "./Section";
+import Section from "./ui/Section";
 import Container from "./design/Container";
 
 export default function Pricing() {

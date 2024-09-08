@@ -1,8 +1,8 @@
-import { check2, grid, loading1, roadmap1 } from "../assets";
+import { check2, grid, loading1 } from "../assets";
 import { roadmap } from "../constants";
-import Button from "./Button";
-import Heading from "./Heading";
-import Section from "./Section";
+import Button from "./ui/Button";
+import Heading from "./ui/Heading";
+import Section from "./ui/Section";
 import Container from "./design/Container";
 import { Gradient } from "./design/Roadmap";
 

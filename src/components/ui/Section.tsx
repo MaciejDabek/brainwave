@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
-import { cn } from "../utils/utils";
-import { SectionSvg } from "../assets/svg/SectionSvg";
+import { cn } from "../../utils/utils";
+import { SectionSvg } from "../../assets/svg/SectionSvg";
 
 type SectionProps = {
   children: ReactNode;

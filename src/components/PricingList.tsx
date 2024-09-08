@@ -1,6 +1,6 @@
 import { check } from "../assets";
 import { pricing } from "../constants";
-import Button from "./Button";
+import Button from "./ui/Button";
 
 export default function PricingList() {
   return (

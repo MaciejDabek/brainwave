@@ -8,7 +8,7 @@ import { navigation } from "../constants";
 import { brainwave } from "../assets";
 import { MenuSvg } from "../assets/svg/MenuSvg";
 import { HamburgerMenu } from "./design/Header";
-import Button from "./Button";
+import Button from "./ui/Button";
 
 export default function Header() {
   const location = useLocation();
@@ -75,7 +75,7 @@ export default function Header() {
           className="flex justify-between items-center gap-4 lg:gap-8"
         >
           <a
-            href="#singup"
+            href="#"
             className="text-xs font-code font-bold uppercase tracking-wider hidden text-n-1/50 transition-colors hover:text-n-1 md:block"
           >
             New account

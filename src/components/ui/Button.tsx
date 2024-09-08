@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
-import { cn } from "../utils/utils";
-import { ButtonSvg } from "../assets/svg/ButtonSvg";
+import { cn } from "../../utils/utils";
+import { ButtonSvg } from "../../assets/svg/ButtonSvg";
 
 type ButtonProps = {
   children: ReactNode;

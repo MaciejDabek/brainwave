@@ -1,6 +1,6 @@
 import { PlusSvg } from "./PlusSvg";
 
-export const SectionSvg = ({ crossesOffset }) => {
+export const SectionSvg = ({ crossesOffset }: { crossesOffset: string }) => {
   return (
     <>
       <PlusSvg

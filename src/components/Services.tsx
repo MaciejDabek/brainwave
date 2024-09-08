@@ -1,8 +1,8 @@
 import { check, service1, service2, service3 } from "../assets";
 import { brainwaveServices, brainwaveServicesIcons } from "../constants";
-import Generating from "./Generating";
-import Heading from "./Heading";
-import Section from "./Section";
+import Generating from "./ui/Generating";
+import Heading from "./ui/Heading";
+import Section from "./ui/Section";
 import Container from "./design/Container";
 import {
   PhotoChatMessage,

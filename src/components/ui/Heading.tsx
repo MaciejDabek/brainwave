@@ -1,5 +1,5 @@
-import { Brackets } from "../assets/svg/Brackets";
-import { cn } from "../utils/utils";
+import { Brackets } from "../../assets/svg/Brackets";
+import { cn } from "../../utils/utils";
 
 type HeadingProps = {
   text: string;

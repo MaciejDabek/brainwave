@@ -1,5 +1,5 @@
 import { socials } from "../constants";
-import Section from "./Section";
+import Section from "./ui/Section";
 import Container from "./design/Container";
 
 export default function Footer() {
