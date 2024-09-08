@@ -17,7 +17,7 @@ export default function Hero() {
       crossesOffset="lg:translate-y-[5.25rem]"
     >
       <div className="max-w-[77.5rem] xl:max-w-[87.5rem] mx-auto px-5 md:px-10 lg:px-15 relative">
-        <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-16 md:mb-20 lg:mb-24">
+        <div className="relative z-10 max-w-[62rem] mx-auto text-center mb-16 md:mb-20 lg:mb-24">
           <h1 className="font-semibold text-4xl lg:text-6xl  mb-6">
             Explore the Possibilities of&nbsp;AI&nbsp;Chatting with{"  "}
             <span className="inline-block relative">
@@ -31,7 +31,7 @@ export default function Hero() {
               />
             </span>
           </h1>
-          <p className="text-[0.875rem] leading-[1.5rem] md:text-[1rem] md:leading-[1.75rem] lg:text-[1.25rem] lg:leading-8 max-w-3xl  text-n-2 mb-6 lg:mb-8">
+          <p className="text-[0.875rem] leading-[1.5rem] md:text-[1rem] md:leading-[1.75rem] lg:text-[1.25rem] lg:leading-8 max-w-3xl  text-n-2 mb-6 lg:mb-8 mx-auto">
             Unleash the power of AI within Brainwave. Upgrade your productivity
             with Brainwave, the open AI chat app.
           </p>
@@ -39,8 +39,8 @@ export default function Hero() {
             Get started
           </Button>
         </div>
-        <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24 -z-10">
-          <div className="relative z-5 p-0.5 rounded-2xl bg-conic-gradient">
+        <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
+          <div className="relative z-10 p-0.5 rounded-2xl bg-conic-gradient">
             <div className="relative bg-n-8 rounded-2xl">
               <div className="h-[1.4rem] bg-n-10 rounded-t-[0.9rem]" />
               <div className="aspect-[33/40] rounded-b-[0.9rem] overflow-hidden md:aspect-[688/490] lg:aspect-[1024/490]">
@@ -79,7 +79,7 @@ export default function Hero() {
             </div>
             <Gradient />
           </div>
-          <div className="absolute -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%] -z-10">
+          <div className="absolute -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]">
             <img
               src={heroBackground}
               className="w-full"

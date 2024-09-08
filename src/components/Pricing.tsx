@@ -17,7 +17,13 @@ export default function Pricing() {
             alt="Sphere"
           />
           <div className="absolute w-[60rem] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none">
-            <img src={stars} className="w-full" width={950} height={400} />
+            <img
+              src={stars}
+              className="w-full"
+              width={950}
+              height={400}
+              alt="stars icon"
+            />
           </div>
         </div>
 
@@ -30,7 +36,10 @@ export default function Pricing() {
         <PricingList />
 
         <div className="text-center mt-10">
-          <a className="font-code font-bold text-xs tracking-wider uppercase border-b text-n-1/50 hover:text-n-1 border-n-4">
+          <a
+            className="font-code font-bold text-xs tracking-wider uppercase border-b text-n-1/50 hover:text-n-1 border-n-4"
+            href="/"
+          >
             See the full details
           </a>
         </div>

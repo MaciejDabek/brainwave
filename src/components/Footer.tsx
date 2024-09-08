@@ -13,18 +13,21 @@ export default function Footer() {
 
           <ul className="flex gap-5">
             {socials.map((item) => (
-              <a
-                key={item.id}
-                className="flex justify-center items-center size-10 p-3 rounded-full bg-n-7  hover:bg-n-6 transition-colors"
-              >
-                <img
-                  src={item.iconUrl}
-                  height={16}
-                  width={16}
-                  className="w-full"
-                  alt={`${item.title} logo`}
-                />
-              </a>
+              <li key={item.id}>
+                <a
+                  target="_blank"
+                  href={item.url}
+                  className="flex justify-center items-center size-10 p-3 rounded-full bg-n-7  hover:bg-n-6 transition-colors"
+                >
+                  <img
+                    src={item.iconUrl}
+                    height={16}
+                    width={16}
+                    className="w-full"
+                    alt={`${item.title} logo`}
+                  />
+                </a>
+              </li>
             ))}
           </ul>
         </div>

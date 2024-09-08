@@ -40,7 +40,7 @@ export default function Services() {
               <ul className="body-2 divide-y-[1px] divide-n-6">
                 {brainwaveServices.map((item, index) => (
                   <li key={index} className="flex items-start py-4">
-                    <img width={24} height={24} src={check} />
+                    <img width={24} height={24} src={check} alt="check icon" />
                     <p className="ml-4">{item}</p>
                   </li>
                 ))}

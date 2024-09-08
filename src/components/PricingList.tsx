@@ -33,9 +33,12 @@ export default function PricingList() {
           </Button>
 
           <ul>
-            {item.features.map((featureItem) => (
-              <li className="flex items-start gap-4 border-t border-n-3 px-1 py-4 mx-4">
-                <img src={check} />
+            {item.features.map((featureItem, index) => (
+              <li
+                key={index}
+                className="flex items-start gap-4 border-t border-n-3 px-1 py-4 mx-4"
+              >
+                <img src={check} alt="check icon" />
                 <span className="">{featureItem}</span>
               </li>
             ))}

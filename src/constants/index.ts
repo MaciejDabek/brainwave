@@ -153,6 +153,8 @@ export const collabApps = [
     icon: figma,
     width: 26,
     height: 36,
+    extRot: "rotate-[0deg]",
+    intRot: "-rotate-[0deg]",
   },
   {
     id: "1",
@@ -160,6 +162,8 @@ export const collabApps = [
     icon: notion,
     width: 34,
     height: 36,
+    extRot: "rotate-[45deg]",
+    intRot: "-rotate-[45deg]",
   },
   {
     id: "2",
@@ -167,6 +171,8 @@ export const collabApps = [
     icon: discord,
     width: 36,
     height: 28,
+    extRot: "rotate-[90deg]",
+    intRot: "-rotate-[90deg]",
   },
   {
     id: "3",
@@ -174,6 +180,8 @@ export const collabApps = [
     icon: slack,
     width: 34,
     height: 35,
+    extRot: "rotate-[135deg]",
+    intRot: "-rotate-[135deg]",
   },
   {
     id: "4",
@@ -181,6 +189,8 @@ export const collabApps = [
     icon: photoshop,
     width: 34,
     height: 34,
+    extRot: "rotate-[180deg]",
+    intRot: "-rotate-[180deg]",
   },
   {
     id: "5",
@@ -188,6 +198,8 @@ export const collabApps = [
     icon: protopie,
     width: 34,
     height: 34,
+    extRot: "rotate-[225deg]",
+    intRot: "-rotate-[225deg]",
   },
   {
     id: "6",
@@ -195,6 +207,8 @@ export const collabApps = [
     icon: framer,
     width: 26,
     height: 34,
+    extRot: "rotate-[270deg]",
+    intRot: "-rotate-[270deg]",
   },
   {
     id: "7",
@@ -202,6 +216,8 @@ export const collabApps = [
     icon: raindrop,
     width: 38,
     height: 32,
+    extRot: "rotate-[315deg]",
+    intRot: "-rotate-[315deg]",
   },
 ];
 
@@ -299,30 +315,30 @@ export const socials = [
     id: "0",
     title: "Discord",
     iconUrl: discordBlack,
-    url: "#",
+    url: "https://discord.com/",
   },
   {
     id: "1",
     title: "Twitter",
     iconUrl: twitter,
-    url: "#",
+    url: "https://x.com/",
   },
   {
     id: "2",
     title: "Instagram",
     iconUrl: instagram,
-    url: "#",
+    url: "https://www.instagram.com/",
   },
   {
     id: "3",
     title: "Telegram",
     iconUrl: telegram,
-    url: "#",
+    url: "https://telegram.org/",
   },
   {
     id: "4",
     title: "Facebook",
     iconUrl: facebook,
-    url: "#",
+    url: "https://www.facebook.com/",
   },
 ];
